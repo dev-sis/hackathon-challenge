@@ -6,7 +6,7 @@
 /* body style rules */
 body{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -146,6 +146,7 @@ main.left .social img{
 
 main form{
     width: 60%;
+    height: fit-content;
     padding:40px;
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;
